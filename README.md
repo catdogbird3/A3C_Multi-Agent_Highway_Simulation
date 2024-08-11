@@ -47,6 +47,10 @@ For testing cryptographic functions and verifying system integrity:
 python A3C_test_limit25.py
 ```
 
+## 成果
+![成果演示](20240811125056.gif)
+![訓練趨勢](W17.png)
+
 ## Dependencies
 - TensorFlow
 - Gymnasium
