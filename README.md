@@ -57,6 +57,11 @@ python A3C_test_limit25.py
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License.
+### 檔案說明
+For testing cryptographic functions and verifying system integrity:
+```bash
+python A3C_test.py為訓練權重檔程式
+python A3C_test_limit25.py 為測試權重檔程式(分數跑到25會自動停止)
+python A3C_test.py 為測試權重檔程式(分數無上限)
+a3c_250_weights.h5 為訓練250次權重檔
 ```
