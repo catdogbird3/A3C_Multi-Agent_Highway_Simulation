@@ -1,3 +1,9 @@
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+
 # prompt: 幫我寫一個簡單測試檔，可以測試上一格A3C程式所產生的權重檔，並且只需輸出的reward值， Multi-Agent架構
 
 import highway_env
