@@ -49,9 +49,9 @@ python A3C_test_limit25.py
 
 ## 成果展示
 
-![成果演示](20240811125056.gif)
+![成果演示](img/20240811125056.gif)
 
-![訓練趨勢](W17.png)
+![訓練趨勢](img/W17.png)
 
 ## Dependencies
 - TensorFlow
