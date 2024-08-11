@@ -4,6 +4,11 @@ Created on Tue Jun 18 10:59:42 2024
 
 @author: weichunwen
 """
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
 # prompt: 測試程式改成若reward>=25就顯示25即可
 
