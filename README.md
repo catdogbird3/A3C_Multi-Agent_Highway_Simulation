@@ -10,7 +10,7 @@ This project implements an Advantage Actor-Critic (A3C) algorithm for a multi-ag
 ## Features
 - **A3C Algorithm**: Implementation of the Advantage Actor-Critic (A3C) algorithm for multi-agent training.
 - **Highway Environment**: Simulates a roundabout environment where multiple agents interact.
-- **System Integrity Check**: Ensures the system's integrity and consistency.
+- **System Integrity Check**: - **Simulated Roundabout**: Simulates a roundabout environment for testing multi-agent interaction and behavior.
 
 ## Project Structure
 - `A3C.PY`: The main file implementing the A3C algorithm, including the environment setup, model definition, and training loop.
