@@ -10,13 +10,13 @@ This project implements an Advantage Actor-Critic (A3C) algorithm for a multi-ag
 ## Features
 - **A3C Algorithm**: Implementation of the Advantage Actor-Critic (A3C) algorithm for multi-agent training.
 - **Highway Environment**: Simulates a roundabout environment where multiple agents interact.
-- **NTT-based Key Generation**: Incorporates Number Theoretic Transform (NTT) for secure key generation.
-- **System Integrity Check**: Ensures the system's integrity through SHA256 hashing and HMAC verification.
+- **System Integrity Check**: Ensures the system's integrity and consistency.
 
 ## Project Structure
 - `A3C.PY`: The main file implementing the A3C algorithm, including the environment setup, model definition, and training loop.
 - `A3C_test.py`: A simple test script to evaluate the trained model by running it in the environment and outputting the total reward per episode.
-- `A3C_test_limit25.py`: A script focusing on encryption and system integrity check, incorporating cryptographic techniques to secure communication between agents.
+- `A3C_test_limit25.py`: A modified version of `A3C_test.py` that stops the test if the score reaches 25 points.
+
 
 ## Installation
 1. Clone this repository:
@@ -41,8 +41,8 @@ To test the model on the environment and observe the rewards:
 python A3C_test.py
 ```
 
-### Cryptographic Testing
-For testing cryptographic functions and verifying system integrity:
+### Testing
+For testing functions and verifying system integrity:
 ```bash
 python A3C_test_limit25.py
 ```
